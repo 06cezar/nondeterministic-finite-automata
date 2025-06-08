@@ -103,7 +103,7 @@ End
 ```
 ---
 
-## ⚠️ Error Handling
+## Error Handling
 
 The NFA implementation uses custom exception classes to handle invalid input formats, missing components, and runtime issues in a clean and Pythonic way.
 
@@ -158,7 +158,7 @@ It reads:
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 project/
@@ -192,7 +192,7 @@ To run the NFA emulator successfully, ensure the following structure:
 - Input strings should be placed inside the `Input Files/` subfolder.
 - You should run the script from the **project root directory** using the terminal or an IDE.
 
-## ▶️ Usage
+## Usage
 
 ### 🔹 Option 1: Interactive Mode
 
@@ -212,7 +212,7 @@ You’ll be prompted for:
   - `NOSEPARATOR` → no separator (e.g., `abba`)
   - or any custom string (e.g., `;`, `,`, `|`)
 
-### Option 2: Run via CLI
+### 🔹 Option 2: Run via CLI
 
 ```
 python3 emulateNFA.py <nfa_filename> <input_filename> [verbosity] [separator]
