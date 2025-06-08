@@ -239,7 +239,7 @@ python3 emulateNFA.py NFAmod2mod3.txt nfaInput.txt 1 NoSeparator
 ## Custom exceptions 
 Custom exceptions are raised for:
 
-- Missing DFA/input files
+- Missing NFA/input files
 
 - Not enough CLI arguments
 
