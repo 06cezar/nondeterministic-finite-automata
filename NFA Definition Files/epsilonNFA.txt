@@ -1,0 +1,33 @@
+[States]
+q0
+q1
+q2
+q3
+q4
+q5
+q_accept
+End
+
+[Sigma]
+a
+b
+End
+
+[Rules]
+q0, ε, q1
+q0, epsilon, q2
+q1, a, q3
+q2, b, q4
+q3, ε, q5
+q4, EPSILON, q5
+q5, epsilon, q_accept
+q5, epsilon, q1   # epsilon cycle back to q1 (safe if closure is correct)
+End
+
+[Start]
+q0
+End
+
+[Accept]
+q_accept
+End
